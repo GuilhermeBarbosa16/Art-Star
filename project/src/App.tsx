@@ -17,34 +17,34 @@ import clinicas from "./assets/clinicas.jpg";
 import consultorios from "./assets/consultorio.jpg";
 import recepcao from "./assets/recepcao.jpg";
 import copa from "./assets/copa.jpg";
-import lojas from "./assets/loja.jpg";
+
 
 function App() {
   const settings = {
     dots: true,
     infinite: true,
-    slidesToShow: 3, // Mostra 3 slides por vez no desktop
+    slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
-    speed: 2000,
+    speed: 3000,
     autoplaySpeed: 2000,
     cssEase: "linear",
     responsive: [
       {
-        breakpoint: 1024, // Tablets e telas menores
+        breakpoint: 1024,
         settings: {
-          slidesToShow: 2, // Mostra 2 slides
+          slidesToShow: 2,
         },
       },
       {
-        breakpoint: 768, // Dispositivos médios (ex: celulares grandes)
+        breakpoint: 768,
         settings: {
-          slidesToShow: 1, // Mostra 1 slide
+          slidesToShow: 1,
         },
       },
     ],
   };
-  
+
   const residentialSlides = [
     {
       title: "Sala de Estar",
@@ -67,7 +67,7 @@ function App() {
       image: quartoKids,
     },
     {
-      title: "Hall de elevador",
+      title: "Hall",
       image: hallDeElevador,
     },
     {
@@ -108,10 +108,6 @@ function App() {
     {
       title: "Copa",
       image: copa,
-    },
-    {
-      title: "Lojas",
-      image: lojas,
     },
   ];
   const clientes = [
@@ -168,18 +164,21 @@ function App() {
               Combinando tecnologia de ponta, materiais de qualidade e durabilidade incomparável.
             </p>
             <a
-              href="#contato"
+              href="https://mail.google.com/mail/?view=cm&to=artstar@terra.com.br&su=Solicitação de Orçamento&body=Nossos%20orçamentos%20são%20realizados%20exclusivamente%20para%20projetos%20assinados%20por%20escritório%20de%20arquitetura,%20assegurando%20um%20resultado%20profissional%20e%20bem%20planejado."
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-block bg-white text-gray-900 px-8 py-4 rounded-md font-semibold hover:bg-gray-100 transition-colors"
             >
               Solicite um orçamento
             </a>
+
           </div>
         </div>
 
         <div className="absolute bottom-8 left-1/2 -translate-x-1/2 text-white animate-bounce">
           <ChevronDown size={32} />
         </div>
-      </section> 
+      </section>
 
       {/* About Us Section */}
       <section className="min-h-screen flex items-center justify-center bg-gray-100">
@@ -201,7 +200,7 @@ function App() {
             <br />
             Cada projeto é tratado com perfeição em cada detalhe, unindo tecnologia de
             ponta, materiais de alta qualidade e a experiência de profissionais dedicados
-            para entregar móveis que impressionam pela durabilidade e sofisticação.
+            para entregar móveis que impressionam pela qualidade e sofisticação.
           </p>
           <div className="mt-8 text-center">
             <p
@@ -229,7 +228,7 @@ function App() {
           </div>
         </div>
       </section>
-      
+
       {/* Residential Environment Slide */}
       <section className="py-10 bg-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -244,7 +243,7 @@ function App() {
                   alt={item.title}
                   className="w-full h-full object-contain rounded-lg shadow-lg" // Ajuste proporcional sem cortar
                 />
-                <div className="absolute bottom-4 left-4 bg-black/50 text-white px-4 py-2 rounded-md">
+               <div className="absolute bottom-4 left-1/2 -translate-x-1/2 bg-black/25 text-white px-4 py-2 rounded-md">
                   {item.title}
                 </div>
               </div>
@@ -267,7 +266,7 @@ function App() {
                   alt={item.title}
                   className="w-full h-full object-contain rounded-lg shadow-lg" // Ajuste proporcional sem cortar
                 />
-                <div className="absolute bottom-4 left-4 bg-black/50 text-white px-4 py-2 rounded-md">
+                <div className="absolute bottom-4 left-1/2 -translate-x-1/2 bg-black/25 text-white px-4 py-2 rounded-md">
                   {item.title}
                 </div>
               </div>
@@ -276,7 +275,7 @@ function App() {
         </div>
       </section>
 
-      {/* Other Environments Slide */}
+      {/* Other Environments Slide 
       <section className="py-5 pb-10 bg-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h3 className="text-3xl font-playfair font-bold mb-8 text-center">
@@ -290,7 +289,7 @@ function App() {
                   alt={item.title}
                   className="w-full h-96 object-contain rounded-lg shadow-lg"
                 />
-                <div className="absolute bottom-4 left-4 bg-black/50 text-white px-4 py-2 rounded-md">
+                <div className="absolute bottom-4 left-1/2 -translate-x-1/2 bg-black/10 text-white px-4 py-2 rounded-md">
                   {item.title}
                 </div>
               </div>
@@ -298,7 +297,7 @@ function App() {
           </Slider>
         </div>
       </section>
-
+*/}
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -323,7 +322,7 @@ function App() {
               </p>
             </div>
           </div>
-          <div className="mt-12 pt-8 border-t border-gray-800 text-center text-gray-400">            
+          <div className="mt-12 pt-8 border-t border-gray-800 text-center text-gray-400">
             <p> Desenvolvido por Guilherme Almeida </p>
             <p>&copy; {new Date().getFullYear()} Art Star Movelaria. Todos os direitos reservados.</p><br />
           </div>
