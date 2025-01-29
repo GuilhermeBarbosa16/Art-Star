@@ -26,8 +26,8 @@ function App() {
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
-    speed: 3000,
-    autoplaySpeed: 2000,
+    speed: 1500,
+    autoplaySpeed: 3000,
     cssEase: "linear",
     responsive: [
       {
@@ -164,13 +164,12 @@ function App() {
               Combinando tecnologia de ponta, materiais de qualidade e durabilidade incomparável.
             </p>
             <a
-              href="https://mail.google.com/mail/?view=cm&to=artstar@terra.com.br&su=Solicitação de Orçamento&body=Nossos%20orçamentos%20são%20realizados%20exclusivamente%20para%20projetos%20assinados%20por%20escritório%20de%20arquitetura,%20assegurando%20um%20resultado%20profissional%20e%20bem%20planejado."
-              target="_blank"
-              rel="noopener noreferrer"
+              href="mailto:artstar@terra.com.br?subject=Solicitação%20de%20Orçamento&body=Nossos%20orçamentos%20são%20realizados%20exclusivamente%20para%20projetos%20assinados%20por%20escritório%20de%20arquitetura,%20assegurando%20um%20resultado%20profissional%20e%20bem%20planejado."
               className="inline-block bg-white text-gray-900 px-8 py-4 rounded-md font-semibold hover:bg-gray-100 transition-colors"
             >
               Solicite um orçamento
             </a>
+
 
           </div>
         </div>
@@ -243,7 +242,7 @@ function App() {
                   alt={item.title}
                   className="w-full h-full object-contain rounded-lg shadow-lg" // Ajuste proporcional sem cortar
                 />
-               <div className="absolute bottom-4 left-1/2 -translate-x-1/2 bg-black/25 text-white px-4 py-2 rounded-md">
+                <div className="absolute bottom-4 left-1/2 -translate-x-1/2 bg-black/25 text-white px-4 py-2 rounded-md">
                   {item.title}
                 </div>
               </div>
