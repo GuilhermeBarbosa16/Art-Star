@@ -17,7 +17,7 @@ import clinicas from "./assets/clinicas.jpg";
 import consultorios from "./assets/consultorio.jpg";
 import recepcao from "./assets/recepcao.jpg";
 import copa from "./assets/copa.jpg";
-
+import logo from "./assets/Logo1.png"
 
 function App() {
   const settings = {
@@ -130,19 +130,18 @@ function App() {
 
       {/* Header */}
       <header className="absolute top-0 left-0 w-full bg-transparent z-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-center items-center h-24">
-            <div className="text-center">
-              <h1 className="text-3xl font-playfair font-bold text-white tracking-wide">
-                ART STAR
-              </h1>
-              <p className="text-sm font-playfair text-gray-200 tracking-widest uppercase">
-                Movelaria
-              </p>
-            </div>
-          </div>
-        </div>
-      </header>
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="flex justify-center items-center h-24">
+      <div className="flex justify-center items-center h-40">
+        <img 
+          src={logo} 
+          alt="Logo ART STAR" 
+          className="w-57 h-auto" 
+        />
+      </div>
+    </div>
+  </div>
+</header>
 
 
       {/* Hero Section */}
