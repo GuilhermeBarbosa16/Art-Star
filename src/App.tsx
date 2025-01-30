@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import areaDeLazer from "./assets/area-lazer.jpeg";
 import banheiroSocial from "./assets/banheiro-social.jpg";
 import banheiro from "./assets/banheiro.jpg";
-import salaDeEstar from "./assets/sala-de-estar.jpg";
+import salaDeEstar from "./assets/sala-de-star.jpg";
 import salaDeJantar from "./assets/sala-de-jantar.jpg";
 import cozinha from "./assets/cozinha.jpg";
 import quarto from "./assets/quarto.jpg";
@@ -58,38 +58,38 @@ function App() {
       title: "Cozinha",
       image: cozinha,
     },
-    {
+    /* {
       title: "Quarto",
       image: quarto,
-    },
+    }, */
     {
       title: "Quarto Kids",
       image: quartoKids,
     },
-    {
+/*     {
       title: "Hall",
       image: hallDeElevador,
-    },
-    {
+    }, */
+    /* {
       title: "Área de Serviço",
       image: areaDeServico,
-    },
+    }, */
     {
       title: "Área de Lazer",
       image: areaDeLazer,
     },
-    {
+    /* {
       title: "Banheiro Master",
       image: banheiro,
-    },
+    }, */
     {
       title: "Banheiro Social",
       image: banheiroSocial,
     },
-    {
+   /*  {
       title: "Escritório Home-Office",
       image: escritorioHomeOffice,
-    },
+    }, */
   ];
 
   const corporateSlides = [
@@ -105,10 +105,10 @@ function App() {
       title: "Recepção",
       image: recepcao,
     },
-    {
+    /* {
       title: "Copa",
       image: copa,
-    },
+    }, */
   ];
   const clientes = [
     {
