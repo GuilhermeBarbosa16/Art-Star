@@ -129,14 +129,14 @@ function App() {
     <div className="min-h-screen">
 
       {/* Header */}
-      <header className="wave-background">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <header className="absolute top-0 left-0 w-full bg-transparent z-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-center items-center h-24">
             <div className="text-center">
-              <h1 className="text-3xl font-playfair font-bold text-red-600 tracking-wide">
+              <h1 className="text-3xl font-playfair font-bold text-white tracking-wide">
                 ART STAR
               </h1>
-              <p className="text-sm font-playfair text-gray-800 tracking-widest uppercase">
+              <p className="text-sm font-playfair text-gray-200 tracking-widest uppercase">
                 Movelaria
               </p>
             </div>
@@ -144,8 +144,9 @@ function App() {
         </div>
       </header>
 
+
       {/* Hero Section */}
-      <section className="relative h-screen">
+      <section className="relative h-screen pt-24">
         <div className="absolute inset-0">
           <img
             src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&q=80"
