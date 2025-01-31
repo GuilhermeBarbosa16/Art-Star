@@ -318,6 +318,7 @@ function App() {
               <h3 className="text-xl font-playfair font-bold mb-4">Contato</h3>
               <p className="text-gray-400">
                 Email: artstar@terra.com.br
+                <br />
                 Tel: (31)3495-2194
               </p>
             </div>
