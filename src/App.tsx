@@ -18,6 +18,8 @@ import consultorios from "./assets/consultorio.jpg";
 import recepcao from "./assets/recepcao.jpg";
 import copa from "./assets/copa.jpg";
 import logo from "./assets/Logo1.png"
+import Auditorio from "./assets/Auditorio.jpg"
+import Auditorio2 from "./assets/Auditorio2.jpg"
 
 function App() {
   const settings = {
@@ -104,6 +106,14 @@ function App() {
     {
       title: "Recepção",
       image: recepcao,
+    },
+    {
+      title: "Auditório",
+      image: Auditorio,
+    },
+    {
+      title: "Auditório",
+      image: Auditorio2,
     },
     /* {
       title: "Copa",
