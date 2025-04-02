@@ -219,7 +219,7 @@ function App() {
               Conheça mais sobre nossos serviços no Instagram!
             </p>
             <a
-              href="https://www.instagram.com/artsatarmovelaria/"
+              href="https://www.instagram.com/artstarmovelaria/"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center text-blue-600 hover:text-blue-800 transition duration-300"
